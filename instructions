@@ -1,0 +1,22 @@
+Instructions
+
+The goal of this exercise is to create a model that classifies patients as having or not having a diagnosis of heart disease. The target variable in this case is given by the `num` column in the data set with 0 corresponding to no heart disease and 1 corresponding to heart disease.
+
+Please create an R script that answers the following questions and performs the following steps. Your code should be commented or document to a degree that allows a grader to follow your thought process and verify what you're trying to accomplish.
+
+1. Choose an appropriate model type: 
+	a. Linear Regression.
+	b. Logistic Regression.
+2. Divide your data into a training and test set.
+3. In your data are there:
+	a. NAs?
+	b. categorical values?
+	c. binary values?
+	d. numeric (real number) values?
+
+	Perform any needed preprocessing of your data, but no need to enforce a linear relationship between your numeric features (e.g. with a spline).
+4. Fit a linear or logistic regression model on your training set.
+5. Use your test set to assess the accuracy of your model.
+	a. Choose a prediction threshold.
+	b. Construct a confusion matrix.
+	c. Calculate the accuracy, PPV, NPV, Sensitivity and Specificity.
